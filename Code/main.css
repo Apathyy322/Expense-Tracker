@@ -101,7 +101,7 @@ button:hover {
 
 .theme-toggle {
     position: absolute;
-    top: 10px;
+    top: 300px;
     right: 10px;
     cursor: pointer;
     font-size: 24px;
