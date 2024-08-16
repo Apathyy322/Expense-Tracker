@@ -107,29 +107,3 @@ button:hover {
     font-size: 24px;
     color: #e8eaed;
 }
-@media (max-width: 768px) {
-    .container {
-        max-width: 100%;
-        padding: 15px;
-        box-shadow: none; /* Reduce shadow for smaller screens */
-    }
-    input[type="text"], input[type="number"] {
-        width: calc(100% - 16px); /* Adjust input width for smaller screens */
-    }
-    button {
-        padding: 8px 15px;
-        margin-top: 8px;
-    }
-    .theme-toggle {
-        font-size: 20px; /* Adjust icon size */
-    }
-}
-@media (max-width: 480px) {
-    .container {
-        padding: 10px;
-    }
-    button {
-        padding: 7px 12px;
-        font-size: 14px;
-    }
-}
